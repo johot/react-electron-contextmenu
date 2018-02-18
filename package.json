@@ -1,7 +1,7 @@
 {
   "name": "react-electron-contextmenu",
-  "version": "0.0.1",
-  "description": "Todo",
+  "version": "0.1.1",
+  "description": "Makes it super easy to create context menus in your React powered Electron apps",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,11 @@
     "publish-library": "cd ./dist && npm publish && echo Package published!",
     "clean-build": "rm -rf dist"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johot/react-electron-contextmenu.git"
+  },
+  "author": "johot",
   "license": "MIT",
   "peerDependencies": {
     "react": "*",
