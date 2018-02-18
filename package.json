@@ -1,0 +1,18 @@
+{
+  "name": "react-electron-contextmenu",
+  "version": "0.0.1",
+  "description": "Todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-library": "npm run clean-build && tsc && cp package.json ./dist/ && cp Readme.md ./dist/ && Echo Build completed!",
+    "publish-library": "cd ./dist && npm publish && echo Package published!",
+    "clean-build": "rm -rf dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "electron": "*"
+  }
+}
