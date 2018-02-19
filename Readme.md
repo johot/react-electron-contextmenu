@@ -1,5 +1,5 @@
 # React-electron-contextmenu
-Makes it super easy to create context menus in your React powered Electron apps.
+Makes it super easy to create context menus in your React powered Electron apps. TypeScript supported!
 
 ## Usage
 
