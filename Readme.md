@@ -2,12 +2,14 @@
 Makes it super easy to create context menus in your React powered Electron apps. TypeScript supported!
 
 ## Installation
-`npm install react-electron-contextmenu --save`
+```bash
+npm install react-electron-contextmenu --save
+```
 
 ## Usage
 
 Import the component:
-```tsx
+```ts
 import ContextMenuArea from "react-electron-contextmenu";
 ```
 
