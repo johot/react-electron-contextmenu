@@ -13,7 +13,7 @@ Import the component:
 import ContextMenuArea from "react-electron-contextmenu";
 ```
 
-Use in render method:
+Wrap the component you want to use as the right click area in the `<ContextMenuArea>` component and use in render method:
 ```tsx
 
     const menuItems = [
