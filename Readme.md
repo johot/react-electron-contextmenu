@@ -30,5 +30,5 @@ Use in render method:
 </ContextMenuArea>
 ```
 
-React-electron-context menu uses the menu template format from electron, see more samples here:  
-<https://electronjs.org/docs/api/menu>
+React-electron-context menu uses the menu template format from electron, see samples here:  
+<https://electronjs.org/docs/api/menu#examples>
