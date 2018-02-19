@@ -15,24 +15,28 @@ import ContextMenuArea from "react-electron-contextmenu";
 
 Wrap the component you want to use as the right click area in the `<ContextMenuArea>` component and use in render method:
 ```tsx
-  render() {
-    const menuItems = [
-      {
-        label: "A menu item",
-        submenu: [
-          { label: "Submenu item", click: () => alert("I was clicked!") },
-          { label: "Submenu item #2", click: () => alert("I was also clicked!") }
-        ]
-      },
-      {
-        label: "Another menu item",
-        click: () => alert("I was clicked!")
-      }
-    ];
-    return (
-<ContextMenuArea menuItems={menuItems}>
-    <div>Right click me to show a context menu!</div>
-</ContextMenuArea>);
+render() {
+  const menuItems = [
+    {
+      label: "A menu item",
+      submenu: [
+        { label: "Submenu item", click: () => alert("I was clicked!") },
+        {
+          label: "Submenu item #2",
+          click: () => alert("I was also clicked!")
+        }
+      ]
+    },
+    {
+      label: "Another menu item",
+      click: () => alert("I was clicked!")
+    }
+  ];
+  return (
+    <ContextMenuArea menuItems={menuItems}>
+      <div>Right click me to show a context menu!</div>
+    </ContextMenuArea>
+  );
 }
 ```
 
