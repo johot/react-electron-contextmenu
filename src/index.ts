@@ -1,4 +1,4 @@
-import ContextMenuArea from "./context-menu-area";
+import { ContextMenuArea } from "./ContextMenuArea";
 
 export { ContextMenuArea };
 export default ContextMenuArea;
